@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS on 5350 - Közügyelet</title>
+    <link>/tags/os/</link>
+    <description>Recent content in OS on 5350 - Közügyelet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hu</language>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demokrácia OS 2.0</title>
+      <link>/post/demokr%C3%A1cia_os_2_0/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/demokr%C3%A1cia_os_2_0/</guid>
+      <description>&lt;p&gt;A demokráciát információ technológiai szemmel vizsgálva és az eddigi parlamentáris berendezkedésünket 1.0 -nak tekintve, a YouTube -on fellelhető &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://www.youtube.com/channel/UC9yLjIQCT5zVRdnW0NFNTng&#34;&gt;Mondom Borz&lt;/a&gt;&lt;/em&gt;&amp;rdquo; projekt által felvázoltakat tekinthetjük talán 2.0 -nak.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

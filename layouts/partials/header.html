@@ -1,0 +1,21 @@
+<header class="header">
+{{ template "_internal/google_analytics.html" . }}
+{{- if .Param "isso_comment" }}
+	{{ partial "isso.html" . }}
+{{ end }}
+{{ partial "seo_schema" . }}
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="{{ "" | relLangURL }}" title="{{ .Site.Title }}" rel="home">
+				<div class="logo__title">{{ .Site.Title }}</div>
+				{{ with .Site.Params.subtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+			</a>
+			<div class="logo_img" style="vertical-align: middle; text-align: right;">
+				<a href="{{ "" | relLangURL }}">
+					<img src="{{ .Site.Params.logo_img | relURL }}" alt="Logo" />
+				</a>
+			</div>
+		</div>
+		{{ partial "menu.html" . }}
+	</div>
+</header>

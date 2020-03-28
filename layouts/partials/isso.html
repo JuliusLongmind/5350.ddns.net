@@ -1,0 +1,8 @@
+{{ "<!-- isso -->" | safeHTML }}
+<script data-isso="{{ .Site.BaseURL }}isso/"
+	data-isso-require-author="true"
+	data-isso-require-email="true"
+	data-isso-lang="hu"
+	src="{{ .Site.BaseURL }}isso/js/embed.min.js">
+</script>
+{{ "<!-- end isso -->" | safeHTML }}

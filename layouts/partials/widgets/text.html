@@ -1,0 +1,18 @@
+{{- if .Site.Params.widgets.text }}
+<div class="widget-text widget">
+	<h4 class="widget__title">{{ T "text_title" }}</h4>
+	<div class="widget__content">
+		{{- with .Site.Params.widgets.text.content }}
+		<div class="widget-text__content">
+			{{ . }}
+		</div>
+		{{- end }}
+		{{- with .Site.Params.widgets.text.thanks }}
+		<div class="widget-text__thanks">
+			<br/><b>{{ . }}</b>
+		</div>
+		{{- end }}
+	</div>
+</div>
+{{- end }}
+

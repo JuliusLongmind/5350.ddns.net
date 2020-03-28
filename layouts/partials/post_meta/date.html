@@ -1,0 +1,6 @@
+{{- if not .Date.IsZero }}
+<div class="meta__item-datetime meta__item">
+	{{ partial "svg/time.svg" (dict "class" "meta__icon") }}
+	A cikk létrehozásának dátuma: {{ .Date.Year }}.{{ index $.Site.Data.honapok (printf "%d" .Date.Month) }}.{{ .Date.Day }}. (Módosítva:  {{ .Lastmod.Year }}.{{ index $.Site.Data.honapok (printf "%d" .Lastmod.Month) }}.{{ .Lastmod.Day }}.)
+</div>
+{{ end -}}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 5350 - Közügyelet</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on 5350 - Közügyelet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hu</language>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demokrácia</title>
+      <link>/tags/demokr%C3%A1cia/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/demokr%C3%A1cia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OS</title>
+      <link>/tags/os/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>/tags/email/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hazugság</title>
+      <link>/tags/hazugs%C3%A1g/</link>
+      <pubDate>Mon, 17 Feb 2020 09:10:25 +0100</pubDate>
+      
+      <guid>/tags/hazugs%C3%A1g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radikális</title>
+      <link>/tags/radik%C3%A1lis/</link>
+      <pubDate>Mon, 17 Feb 2020 09:10:25 +0100</pubDate>
+      
+      <guid>/tags/radik%C3%A1lis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Őszinteség</title>
+      <link>/tags/%C5%91szintes%C3%A9g/</link>
+      <pubDate>Mon, 17 Feb 2020 09:10:25 +0100</pubDate>
+      
+      <guid>/tags/%C5%91szintes%C3%A9g/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Katasztrófa</title>
+      <link>/tags/katasztr%C3%B3fa/</link>
+      <pubDate>Thu, 31 Oct 2019 11:10:25 +0100</pubDate>
+      
+      <guid>/tags/katasztr%C3%B3fa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

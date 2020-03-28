@@ -1,0 +1,14 @@
+{{ if not .Params.noComment }}
+	{{ if and .Site.DisqusShortname (index .Params "comments" | default "true") (not .Site.IsServer) }}
+	<section class="comments">
+		{{ template "_internal/disqus.html" . }}
+	</section>
+	{{ end }}
+	{{- if .Param "isso_comment" }}
+		{{"<!-- begin comments //-->" | safeHTML}}
+		<section id="isso-thread">
+
+		</section>
+		{{"<!-- end comments //-->" | safeHTML}}
+	{{ end }}
+{{ end }}

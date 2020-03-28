@@ -1,0 +1,95 @@
+baseurl         = "http://5350.ddns.net/"
+title           = "5350 - Közügyelet"
+languageCode    = "hu"
+DefaultContentLanguage = "hu"
+paginate        = "10"              # Number of posts per page
+theme           = "Mainroad"        # Define hugo theme to be used
+disqusShortname = ""                # Enable comments by entering your Disqus shortname
+googleAnalytics = "UA-158621918-1"  # Enable Google Analytics by entering your tracking id
+enableRobotsTXT = true
+canonifyURLs    = true
+enableEmoji     = true
+
+[Author]
+  name = "Julius Longmind"
+  bio = "Julius Longmind igazi identitása nem ismert. Lehet Ő egy sikeres blogger vagy író. Senki sem tudja."
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "Az 5350 Csoport Egyesület híroldala"        # Subtitle of your site
+  description = "Az 5350 Csoport blog oldala mindenről"   # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false                    # Show "Read more" button in list if true
+  authorbox = true
+  post_navigation = true
+  post_meta = ["date", "categories"]  # Order of post meta information
+  logo_img = "images/5350_pn.png"     # Define logo_img on the ritght side of mainpage
+  customCSS = ["css/custom.css"]      # Include custom CSS files
+  customJS = ["js/custom.js"]         # Include custom JS files
+  isso_comment = true                 # Switch on comment service
+  addThis = "ra-5e4fae45f6804070"     # Include addThis sharing service
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "text"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+#  facebook = "username"
+#  twitter = "username"
+#  instagram = "username"
+#  telegram = "username"
+#  youtube = "username"
+  email    = "info@5350.hu"         #address
+  irc      = "#5350"                #room
+  mastodon = "5350"                 #username
+  matrix   = "!DbjWlUmkefVywCTCzS"  #room
+  peertube = "5350"                 #channel
+  github   = "5350"                 #username
+
+[taxonomies]
+  category  =   "categories"
+  series    =   "series"
+  tag       =   "tags"
+
+[Params.widgets.text]
+  content = "Amennyiben tetszett Önnek az oldal, értékes információhoz juttattuk, fontosnak tartja munkánkat, úgy kérjük az alábbi linkre kattintva jutassa el hozzánk támogatását."
+  thanks = "Köszönjük!"
+
+[menu]
+  [[menu.main]]
+  identifier = "fooldal"
+  name = "Főoldal"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "media"
+  name = "Média"
+  url = "/media/"
+  weight = 2
+
+  [[menu.main]]
+  identifier = "kiadvanyok"
+  name = "Kiadványok"
+  url = "/kiadvanyok/"
+  weight = 3
+
+  [[menu.main]]
+  identifier = "kapcsolat"
+  name = "Kapcsolat"
+  url = "/kapcsolat/"
+  weight = 4
+
+  [[menu.main]]
+  identifier = "rolunk"
+  name = "Rólunk"
+  url = "/rolunk/"
+  weight = 5
