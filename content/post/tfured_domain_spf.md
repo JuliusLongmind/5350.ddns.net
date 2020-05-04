@@ -5,7 +5,7 @@ date: '2020-03-09'
 lastmod: 2020-03-10T14:30:25+01:00
 slug: tfured_domain_spf
 show_thumb_in_post: false
-thumbnail: "https://cdn-wpe.fraudmarc.com/wp-content/uploads/2018/03/SPF-1.png"
+thumbnail: "https://33hf181dgl251b9am73x5nbw-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/SPF-1.png"
 categories:
   - Domain
   - tiszafured.hu
