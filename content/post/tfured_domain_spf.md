@@ -54,7 +54,7 @@ Továbbá, a "Kézbesítési értesítések" bekapcsolásával kell figyelni vag
 
 Ugyanakkor meglepő csend van az ellenzékiek részéről is (és itt szándékosan nem írtam "összefogás" -t) a dologgal kapcsolatban ahhoz képest, hogy mekkora hangsúlyt fektettek a megkésett emailek miatti információhiány kommunikációjára.
 
-#### Nos, ime egy fontos, de semmilyen erőfeszítést nem igénylő problémamegoldásnak a története Tiszafüredről.
+#### Nos, ime egy fontos, de semmilyen erőfeszítést nem igénylő probléma megoldásnak a története Tiszafüredről.
 
 UPDATE: 2020.03.10
 
