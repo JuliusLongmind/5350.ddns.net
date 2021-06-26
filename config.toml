@@ -9,7 +9,7 @@ googleAnalytics = "UA-158621918-1"  # Enable Google Analytics by entering your t
 enableRobotsTXT = true
 canonifyURLs    = true
 enableEmoji     = true
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [Author]
   name = "Julius Longmind"
