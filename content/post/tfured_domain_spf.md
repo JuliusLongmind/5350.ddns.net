@@ -4,7 +4,7 @@ author: Julius Longmind
 date: '2020-03-09'
 lastmod: 2020-03-10T14:30:25+01:00
 slug: tfured_domain_spf
-show_thumb_in_post: false
+show_thumb_in_post: true
 thumbnail: "https://uploads-ssl.webflow.com/6296b23afc1087eb6091d325/629eb2537fdaa68f7cb70834_spf-check-example-p-2000.png"
 categories:
   - Domain
